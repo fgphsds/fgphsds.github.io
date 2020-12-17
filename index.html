@@ -331,19 +331,19 @@
                 <div class="col-lg-6">
                     
                     <!-- Contact Form -->
-                    <form id="contactForm" method="post" action="php/contactform-process.php">
+                    <form id="contactForm" method="POST" action="php/contactform-process.php">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" name="name" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
+                            <input type="email" name="email" class="form-control-input" id="cemail" required>
                             <label class="label-control" for="cemail">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <textarea name="message" class="form-control-textarea" id="cmessage" required></textarea>
                             <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
