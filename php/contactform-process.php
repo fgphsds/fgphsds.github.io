@@ -33,7 +33,6 @@ $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
-$Body .= "Terms: ";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
