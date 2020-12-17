@@ -20,7 +20,7 @@ if (empty($_POST["message"])) {
 }
 
 $EmailTo = "fgphsds@gmail.com";
-$Subject = "FGPHSDS Website;
+$Subject = "FGPHSDS Website";
 
 // prepare email body text
 $Body = "";
