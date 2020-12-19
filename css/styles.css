@@ -1050,6 +1050,7 @@ td:nth-child(4) {
 .slider-2 {
 	padding-top: 7.5rem;
 	padding-bottom: 7rem;
+	background: url('../images/testimonials-background.jpg') center center no-repeat;
 	background-size: cover; 
 }
 
