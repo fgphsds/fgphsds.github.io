@@ -1934,26 +1934,26 @@ a:hover.back-to-top {
 	}
   /* end of footer */
 
-  #footer .copyright {
+  .copyright {
     text-align: center;
     padding-top: 30px;
     color: #535074;
     font-size: 15px;
   }
   
-  #footer .credits {
+  .credits {
     text-align: center;
     font-size: 14px;
     padding-top: 4px;
     color: #8582a8;
   }
   
-  #footer .credits a {
+  .credits a {
     color: #1bb1dc;
   }
   
-  #footer .credits a:hover {
-    color: #0a98c0;
+  .credits a:hover {
+    color: #1b8fdc;
   }
 
 
