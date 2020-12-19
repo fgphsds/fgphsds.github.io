@@ -896,6 +896,19 @@ input[type='checkbox'] {
 /*        Gallery           */
 /****************************/
 
+.gallery {
+	background-color: #F5F8FD;
+}
+
+.gallery .container{
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+
+.gallery .container .text-center{
+	padding-bottom: 10px;
+}
+
 .work-box {
 	margin-bottom: 3rem;
 	-webkit-backface-visibility: hidden;
